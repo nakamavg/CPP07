@@ -57,3 +57,10 @@ void	iter( T1 *array, T2 len, FNC display ) {
 ```
 - Simplemente saber como recibir un array de cualquier tipo, que vamos a iterar ese array con el argumento T2 y vamos a aplicar la funcion display;
 
+## ex 02
+## Clase con Plantillas
+
+### Implementación de Métodos y Constructores:
+
+- Todos los métodos y constructores de la clase plantilla deben ser definidos dentro del archivo de encabezado (.hpp). Esto es necesario porque el compilador necesita tener acceso al código fuente completo para generar las versiones específicas de los métodos según los tipos de datos que se usen con la clase.
+
