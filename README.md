@@ -39,4 +39,21 @@ Resumen: Las plantillas es cuando el codigo se va a comportar igual,
 la sobrecarga es cuando van hacer cosas diferentes segun el tipo de dato
 
 
+## ex 01
+
+- Consolidar lo aprendido en el ejercicio anterior pero con arrays
+```c++
+template <typename T>
+void	display( T element ) {
+	std::cout << element << std::endl;
+}
+
+template <typename T1, typename T2, typename FNC>
+void	iter( T1 *array, T2 len, FNC display ) {
+	for (T2 i = 0; i < len; i++) {
+		display(array[i]);
+	}
+}
+```
+- Simplemente saber como recibir un array de cualquier tipo, que vamos a iterar ese array con el argumento T2 y vamos a aplicar la funcion display;
 
